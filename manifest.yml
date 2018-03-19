@@ -1,0 +1,11 @@
+ 
+---
+applications:
+- name: cf-nodejsnewrelicTest
+  memory: 512M
+  instances: 1
+  command: node app.js
+  path: .
+  env:
+    NEW_RELIC_LICENSE_KEY: 26577204a13a6b233120daacdd975c09fac3fd8a
+    
